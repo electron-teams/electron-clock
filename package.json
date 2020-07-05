@@ -1,0 +1,26 @@
+{
+  "name": "electron-pt-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "debug": "electron . --debug=5858"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorainwings/electron-pt-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorainwings/electron-pt-app/issues"
+  },
+  "homepage": "https://github.com/lorainwings/electron-pt-app#readme",
+  "dependencies": {
+    "electron": "^9.0.5",
+    "timer.js": "^1.0.4"
+  }
+}
