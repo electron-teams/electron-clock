@@ -13,7 +13,10 @@ const start = () => {
 
 const update = (ms) => {
     const container = document.getElementById('timer-container');
-    container.innerText = ms
+    const s = parseInt(ms / 1000);
+    const sec = s % 60;
+    const min = parseInt(s / 60);
+    container.innerText = `${min.toString().padStart(2, 0)}:${sec.toString().padStart(2, 0)}`
 }
 
 const notify = async () => {
